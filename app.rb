@@ -7,7 +7,7 @@ class App < Sinatra::Base
 
     rname = name[0]
     rlname = name[1]
-    "<h1><%rname.reverse%> <%rlname.reverse%></h1>"
+    <h1><%=rname.reverse%> <%=rlname.reverse%></h1>
   end
 
 end
