@@ -1,8 +1,4 @@
 <html>
-  <%name = params[:name].split("%20")%>
-
-  <%rname = name[0]%>
-  <%rlname = name[1]%>
-  <h1><%=rname.reverse%>
-  <%=rlname.reverse%></h1>
+  <%name = params[:name]%>
+  <h1><%=name.reverse%></h1>
 </html>
