@@ -1,4 +1,4 @@
 <html>
-  <% squared = params[:number] * params[:number]%>
+  <% squared = params[:number].to_i * params[:number].to_i%>
   <h1><%=squared%></h1>
 </html>
